@@ -1,0 +1,191 @@
+
+/* general css */
+
+
+body {
+	font-family: arial, sans serif;
+	line-height: 25px;
+	width: 100%;
+	margin: 0px;
+}
+
+h2 {
+	padding: 10px 0px 5px 0px;
+	font-size: 18px;
+}
+
+img {
+	margin: 0px 0px 0px 25px;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+/* css for about page */
+
+.container {
+	background-color: black;
+	padding: 50px;
+}
+
+.name {
+	font-family: arial, sans serif;
+	color: white;
+	font-size: 160px;
+	line-height: 5px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.title {
+	font-family: arial, sans serif;
+	color: white;
+	font-size: 33px;
+	line-height: 10px;
+	text-align: center;
+	margin: -45px 0px 65px 0px;
+}
+
+.intro {
+	background-color: black;
+	padding: 20px 40px 0px 40px;
+	font-family: arial, sans serif;
+	color: white;
+	line-height: 30px;
+}
+
+.links {
+	font-family: arial, sans serif;
+	background-color: black;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	font-weight: bold;
+	padding: 1px 15px 15px 15px;
+}
+
+#quote {
+	font-family: arial, sans serif;
+	color: white;
+	font-size: 25px;
+	font-style: italic;
+	text-align: center;
+}
+
+#desc {
+	font-family: arial, sans serif;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+/* css for portfolio page */
+
+.header{
+	font-family: arial, sans serif;
+	color: white;
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	width: 100%;
+	height: 125px;
+	padding: 10px 0px 10px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+.left_header{
+	float: left;
+	width: 400px;
+	height: 100px;
+	padding: 50px 0px 0px 100px;
+}
+
+.right_header{
+	font-size: 15px;
+	float: right;
+	width: 200px;
+	height: 100px;
+	padding: 20px 125px 0px 0px;
+	text-align: right;
+	font-weight: bold;
+	line-height: 15px;
+}
+
+#name2 {
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 0px;
+	margin:0px;
+}
+
+#title2 {
+	font-size: 20px;
+	line-height: 25px;
+}
+
+.content {
+	font-family: arial, sans serif;
+	width: 85%;
+	margin: 0px 0px 0px 100px;
+	padding: 0px 0px 0px 0px;
+}
+
+.left_col_1{
+	float: left;
+	width: 45%;
+	height: 400px;
+	padding: 0px 15px 0px 15px;
+	margin: 5px 0px 15px 0px;
+	/* background-color: #EAE6E5; */
+	background-color: #FFFF00; 
+}
+
+.right_col_1{
+	float: right;
+	width: 50%;
+	height: 420px;
+	padding: 5px 0px 0px 0px;
+	margin: 0px 0px 5px 0px;
+}
+
+.left_col_2{
+	float: left;
+	width: 45%;
+	height: 435px;
+	padding: 0px 15px 3px 15px;
+	margin: 10px 0px 10px 0px;
+	/* background-color: #EAE6E5; */
+	background-color: #FFFF00;
+}
+
+.right_col_2{
+	float: right;
+	width: 50%;
+	height: 445px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 5px 0px;
+}
+
+.left_col_3{
+	float: left;
+	width: 45%;
+	height: 325px;
+	padding: 0px 15px 0px 15px;
+	margin: 15px 0px 35px 0px;
+	/* background-color: #EAE6E5; */
+	background-color: #FFFF00;
+}
+
+.right_col_3{
+	float: right;
+	width: 50%;
+	height: 355px;
+	padding: 3px 0px 0px 10px;
+	margin: 10px 0px 35px 0px;
+}
