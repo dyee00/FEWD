@@ -1,0 +1,102 @@
+h1, h2	 	{
+  font-family: arial;
+  background-color: lightgray;
+  padding: 12px 0px 12px 6px;
+}
+
+body {
+  padding: 0px 300px 0px 300px;
+}
+
+code {
+  background-color: lightgray;
+}
+
+.announcement {
+  background-color: indianred;
+  color: white;
+}
+
+/* Apply style to all list items in unordered lists only */
+
+ul li {
+	font-family: Comic Sans MS;
+	background-color: beige;
+	margin: 0px 0px 16px 0px;
+}
+
+/* Make all list items in ordered list bigger (24px) */
+
+ol li {
+	font-size: 24px;
+	background-color: beige;
+	margin: 0px 0px 12px 0px;
+}
+
+/* Make all <code> tags inside announcements black text on white background */
+
+ .announcement code{
+	color: black;
+	background-color: white;
+}
+
+/* Makes last paragraph blue */
+
+p: last-child {
+	color: blue;
+}
+
+/* margins & padding & borders */
+
+ /* 
+h1 {
+  margin: 20px;
+  padding: 30px;
+  background-color: yellow; 
+  border: 3px solid black;
+}
+
+*/
+
+
+ .announcement {
+	margin: 96px 0px 96px 0px;
+	padding: 24px 48px 24px 48px;
+}
+
+code {
+	padding: 0px 12px 0px 12px;
+}
+
+/* */
+
+
+nav li {
+	display: inline;
+	background-color: gray;
+}
+
+h1, h2 {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav {
+	text-align: center;
+}
+
+.nav-item {
+	font-family: arial;
+	margin: 10px;
+	padding: 10px;
+
+}
+
+
+
+
+
+
+
+

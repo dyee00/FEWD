@@ -1,0 +1,165 @@
+body {
+  color: white;
+  font-family: Arial;
+  font-size: 24px;
+}
+
+section {
+  padding: 100px;
+}
+
+.two-columns {
+  background: slategray;
+}
+
+.two-columns:after {
+  /* clearfix */
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.three-columns {
+  background: lightgray;
+}
+
+.color {
+  height: 200px;
+}
+
+.red {
+  background: firebrick;
+  width: 50%;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+.blue {
+  background: navy;
+  width: 50%;
+  float:left;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+.orange {
+  background: orange;
+  width: 33.3%;
+  float: left;
+}
+
+.three-columns:after {
+  /* clearfix */
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.yellow {
+  background: gold;
+  width: 33.3%;
+  float: left;
+}
+
+.green {
+  background: forestgreen;
+  width: 33.3%;
+  float: left;
+}
+
+
+.four-columns:after {
+  /* clearfix */
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.four-columns{
+  background: palevioletred;
+}
+
+.darkgoldenrod {
+  background: darkgoldenrod;
+  width: 25%;
+  float: left;
+}
+.midnightblue {
+  background: midnightblue;
+  width: 25%;
+  float: left;
+}
+.LIME {
+  background: lime;
+  width: 25%;
+  float: left;
+}
+.lemonchiffon {
+  background: lemonchiffon;
+  width: 25%;
+  float: left;
+  color: black;
+}
+
+
+.two-column-grid:after {
+  /* clearfix */
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.two-column-grid{
+  background: darkslategrey;
+}
+
+.one {
+  background: rosybrown;
+  width: 50%;
+  float: left;
+}
+.two {
+  background: mediumorchid;
+  width: 50%;
+  float: left;
+}
+.three {
+  background: seagreen;
+  width: 50%;
+  float: left;
+}
+.four {
+  background: lemonchiffon;
+  width: 50%;
+  float: left;
+  color: black;
+}
+
+/* the below box-sizing is universal throughout all code */
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

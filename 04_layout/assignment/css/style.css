@@ -1,0 +1,218 @@
+/* Header section */
+
+header {
+  height: 400px;
+  background-color: rgb(18,5,95);
+  background-image:  url(../images/header_bg.jpg);
+  background-size: cover;      
+  /* background-repeat: no-repeat;
+  background-position: center center; */
+  padding: 100px; 
+  text-align: center;
+}
+
+.logo1 {
+  font-family: Open Sans;
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+}
+
+.subtext {
+  font-size: 60px;
+  font-family: Open Sans;
+  color: white;
+  margin: 50px 0px 50px 0px;
+}
+
+button {
+  font-family: Open Sans;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.btn_header {
+  font-size: 23px;
+  background-color: gold;
+  color: darkblue;
+  padding: 12px 45px 12px 45px;
+  border: 0px;
+}
+
+
+/* Value Proposition section */
+
+
+#value-proposition {
+  height: 350px;
+  background-color: rgb(18,5,95);
+  padding: 100px 100px 50px 100px;
+  color: white;
+  font-family: Open Sans; 
+  font-size: 25px;
+  line-height: 50px;
+  text-align: center;
+}
+
+#value-proposition:after {
+  /* clearfix */
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.scalable {
+  width: 33.33%;
+  float: left; 
+}
+
+.agile {
+  width: 33.33%;
+  float: left; 
+}
+
+.synergy {
+  width: 33.33%;
+  float: left; 
+}
+
+
+/* Benefits section */
+
+
+#benefits {
+  height: 450px;
+  background-color: white;
+  color: black;
+  font-family: Open Sans; 
+  font-size: 23px;
+  line-height: 30px;  
+  padding: 30px 100px 30px 100px;
+}
+
+.title {
+  color: darkblue;
+  font-size: 50px;
+  margin: 75px 0px 0px 0px;
+}
+
+.desc {
+  margin: 30px 0px 10px 0px;
+}
+
+.col-title {
+  font-weight: bold;
+  font-size: 30px;
+  margin: 30px 0px 30px 0px;
+}
+
+ul {
+  list-style: disc;
+  list-style-position: outside;
+  padding-left: 20px;
+} 
+
+.col-one {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.col-two {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+
+
+/* Testimonial section */
+
+
+#testimonial {
+  height: 400px;
+  width: 800px;
+  background-image:  url(../images/testimonial_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: white;
+  font-family: Open Sans;
+  font-size: 45px;
+  text-align: center;
+  padding: 100px 325px 0px 325px;
+}
+
+.quote {
+  font-style: oblique;
+  line-height: 50px;
+  padding: 0px 10px 0px 10px;
+}
+
+.signature {
+  font-weight: bold;
+  line-height: 125px;
+}
+
+/* Aside section */
+
+
+aside {
+  height: 120px;
+  background-color: gold;
+  text-align: center;
+}
+
+.btn_aside {
+  font-size: 25px;
+  background-color: rgb(18,5,95);
+  color: white;
+  border-color: darkblue;
+  padding: 10px 40px 10px 40px;
+  margin: 30px 0px 0px 0px;
+}
+
+
+/* Footer section */
+
+
+footer {
+  height: 300px;
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-family: Open Sans;
+}
+
+.logo2 {
+  font-size: 60px;
+  font-weight: bold;
+  color: gold;
+  padding: 50px 0px 0px 0px;
+}
+
+.icons {
+  margin: 50px 0px 50px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.fb {
+  padding: 0px 30px 0px 0px;
+}
+.tweet {
+  padding: 0px 0px 0px 0px;
+}
+
+.copyright {
+  font-size: 17px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
