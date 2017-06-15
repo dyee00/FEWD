@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pokeblog</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header>
+      <img class="header-image" src="./images/gold-silver.jpg" alt="Pokemon Gold and Silver">
+    </header>
+
+    <section class="sign-up">
+      <h2 class="sign-up-heading">Coming Soon!</h2>
+      <p class="sign-up-description">Be the first to hear updates on these amazing games</p>
+
+      <form class="sign-up-form">
+     
+      <label for="first-name-input">First Name </label>
+      <input id="first-name-input" type="text" name="first_name">
+
+      <label for="last-name-input">Last Name </label>
+      <input id="last-name-input" type="text" name="last_name">
+
+      <label for="email-input">Email Address </label>
+      <input id="email-input" type="Email" name="email">
+
+      <label for="birthday-input">Birthday </label>
+      <input id="birthday-input" type="date" max="2017-06-13" name="birthday">
+    </br>
+      <label for="country-input">Select your country </label>
+      <select id ="country-input" name="country">
+        <option value="japan">Japan</option>
+        <option value="usa">USA</option>
+        <option value="other">Other</option>
+      </select>
+
+      <p>Pokemon Survey</p>
+	</br>
+      <label for="experience-input">How many years have you been playing Pokemon? </label>
+      <input id="experience-input" type="number" name="experience">
+	</br>
+      <p>Which was your favorite game? </p>
+      <input id="favorite-game-silver" type="radio" name="favorite game" value="silver">
+      <label for="favorite-game-silver">Pokemon Silver </label></br>
+      <input id="favorite-game-gold" type="radio" name="favorite game" value="gold">
+      <label for="favorite-game-gold">Pokemon Gold </label> </br>
+
+	  <p>What are you going to do in this game? </p>
+      <input id="training-input" type="checkbox" name="training" value="training">
+      <label for="training-input">I will be training </label></br>
+
+      <input id="activities-input"" type="checkbox" name="activities" value="catching">
+      <label for="activities-input"">I will be catching </label></br>
+
+      <input id="exploring-input"" type="checkbox" name="exploring" value="exploring">
+      <label for="exploring-input"">I will be exploring </label></br>
+
+      <input type="submit" name="Submit!">
+      </form>
+    </section>
+  </body>
+</html>
