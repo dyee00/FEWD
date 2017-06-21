@@ -1,0 +1,108 @@
+body {
+	background-color: lightgray;
+	width: 100%;
+	height: auto;
+}
+
+header {
+	background-color: black;
+	padding: 1.5rem 3rem 3.5rem 3rem;
+	margin: -1rem -1rem 0rem -1rem;
+	border-width: 0rem 0rem .5rem 0rem;
+	border-style: solid;
+	border-color: yellow;
+}
+
+header h1 a {
+	font-size: 2rem, serif;
+	color: yellow;
+	text-decoration: none;
+	padding: 0rem 0rem 0rem 0rem;
+}
+
+header nav ul li {
+	display: inline;
+	float: right;
+	list-style-type: none;
+}
+
+nav ul li a {
+	font: 1.3rem arial, serif;
+	padding: 0rem 2rem 0rem 0rem;
+	margin-left: 0px;
+	color: white;
+	text-decoration: none;
+}
+
+nav ul .primary-nav li a {
+	float: left; 
+	padding-bottom: 1rem;
+	font-size: 1.35rem;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+nav ul .secondary-nav li a{
+	float: left;
+	padding-bottom: 1rem;
+	font-weight: bold;
+}
+
+section p {
+	font-size: 1.8rem;
+	text-align: center;
+	font-weight: bold;
+}
+
+#tagline .strikethrough {
+	text-decoration: line-through;
+	color: gray;
+} 
+
+#tagline .underline {
+	text-decoration: underline yellow;
+} 
+
+#section-1 img {
+	position: absolute;
+	display: inline;
+}
+
+.text-box {
+	background-color: white;
+	opacity: 0.8;
+	float: right;
+	position: relative;
+	width: 30%;
+	height: 100%;
+	padding: 1rem 2rem 5rem 2rem;
+	margin: 5rem 5rem 5rem 0rem;
+	text-align: center;
+}
+
+.txt-title h2{
+	font: 2rem arial, sans serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+.txt-box-txt p {
+	font: 1.5rem arial, sans serif;
+	line-height: 2rem;
+	text-align: left;
+}
+
+.text-box #txt-box-btn {
+	font: 1.2rem arial, sans serif;
+	background-color: yellow;
+	padding: 1rem 2.3rem 1rem 2.3rem;
+} 
+
+
+
+
+
+
+
+
+
