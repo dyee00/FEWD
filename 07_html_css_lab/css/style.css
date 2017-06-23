@@ -36,11 +36,17 @@ header nav ul li {
 
 nav {
 	float: right;
-	overflow: hidden;
+	/* overflow: hidden; */
 }
 
+nav:after {
+  content: "";
+  display: table;
+  clear: both;
+} 
+
 nav ul li a {
-	font: 1.3rem arial, serif;
+	font: 1.3rem arial;
 	padding: 0rem 2rem 0rem 0rem;
 	color: white;
 	text-decoration: none;
@@ -94,7 +100,7 @@ section #main {
 	overflow: hidden;
 	clear: both;
 	background: url(../images/coworking.jpg) no-repeat top left;
-	background-size: contain;
+	background-size: cover;
 }
 
 
@@ -110,12 +116,19 @@ section #main {
 	position: relative;
 	width: 30%;
 	height: 100%;
-	padding: 1rem 2rem 5rem 2rem;
-	margin: 5rem 5rem 5rem 0rem;
+	padding: 1rem 2rem 2rem 2rem;
+	margin: 5rem 5rem 2rem 0rem;
 	text-align: center;
-	overflow: hidden;
 	clear: both;
+	box-sizing:  border-box;
 }
+
+/*
+#main:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
 
 .txt-title h2{
 	font: 2rem arial;
@@ -129,37 +142,55 @@ section #main {
 	text-align: left;
 }
 
-.text-box #txt-box-btn {
-	font: 1.2rem arial;
+.text-box button {
+	font: 1.2rem impact;
 	background-color: yellow;
 	padding: 1rem 2.3rem 1rem 2.3rem;
 } 
 
 /*** SECTION 2 ***/
-
 .section-2 {
 	width: 100%;
 	height: auto;
-	overflow: hidden; 
-	padding: 2rem 2rem 2rem 2rem;
+	padding: 1rem 0rem 2rem 2rem;
 	background-color: white;
+	overflow: hidden;
 }
 
-.section-2 .col-1 {
-	float: left;
-	padding-right: 1rem;
-	width: 33%;
+/**** CLEARFIX ****/
+.section2:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-.section-2 .col-2 {
-	float: left;
-	width: 33%;
+
+.section-2 button {
+	font-size: 1rem;
+	background-color: lightgray;
+	padding: 1rem 1rem 1rem 1rem;
 }
 
-#section-2 .col-3 {
+.section-2 .info-box{
+
 	float: left;
-	width: 33%;
+	padding-right: .5rem;
+	width: 29%;
+	padding: 0rem 1.2rem 0rem 1.2rem;
+	font-size: 1.2rem;
 }
+
+.info-box h2 {
+	font-family: georgia;
+}
+
+.info-box {
+	border-style: solid;
+	border-width: 0rem .05rem 0rem .05rem;
+	border-color: lightgray;
+}
+
+
 
 /*** FOOTER ***/
 
@@ -168,10 +199,28 @@ footer {
 	font: 1.3rem arial;
 	color: white;
 	background-color: black;
-	padding: .8rem 0rem .8rem 0rem;
-	margin: 0;
+	padding: 1rem 1rem 1rem 1rem;
 }
 
 
+/*** PAGE 2 ***/
 
+.developer {
+	width: 100%;
+	height: auto;
+} 
+
+.profile:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.profile {
+	float: left;
+	width: 25%;
+	background-color: white;
+	padding: 0rem 0rem 0rem 0rem;
+}
 
