@@ -19,6 +19,10 @@ header {
 	border-color: yellow;
 }
 
+h1 a {
+	width: 40%;
+}
+
 header h1 a /* logo */{
 	font-family: georgia;
 	font-size: 2rem, serif;
@@ -120,7 +124,7 @@ section #main {
 	margin: 5rem 5rem 2rem 0rem;
 	text-align: center;
 	clear: both;
-	box-sizing:  border-box;
+	box-sizing: border-box;
 }
 
 /*
@@ -158,7 +162,7 @@ section #main {
 }
 
 /**** CLEARFIX ****/
-.section2:after {
+.section-2:after {
   content: "";
   display: table;
   clear: both;
@@ -186,10 +190,32 @@ section #main {
 
 .info-box {
 	border-style: solid;
-	border-width: 0rem .05rem 0rem .05rem;
+	border-width: 0rem .1rem 0rem 0rem;
 	border-color: lightgray;
 }
 
+/*** RESPONSIVE ***/
+
+@media screen and (max-width: 600px) {
+
+nav {
+	display: block;
+}	
+
+header nav {
+	float: none;
+}
+
+.section-1 {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	clear: both;
+	background: url(../images/coworking.jpg) no-repeat top left;
+	background-size: contain;
+}
+
+}
 
 
 /*** FOOTER ***/
@@ -205,22 +231,64 @@ footer {
 
 /*** PAGE 2 ***/
 
-.developer {
-	width: 100%;
-	height: auto;
-} 
 
-.profile:after {
-  content: "";
-  display: table;
-  clear: both;
+.dev-menu {
+	background-color: gray;
+	width: 30%;
 }
 
+.des-menu {
+	background-color: gray;
+	width: 30%;
+}
+
+.developers {
+	width: 100%;
+	height: auto;
+	padding: 0rem 0rem 0rem 0rem;
+	margin: 2rem 0rem 2rem 0rem;
+} 
+
+.developers:after {
+  	content: "";
+  	display: table;
+  	clear: both;
+}
 
 .profile {
 	float: left;
-	width: 25%;
+	width: 17%;
 	background-color: white;
+	padding: 1rem 1rem 1rem 1.35rem; 
+	margin: 1rem 1rem 1rem 0rem;
+	box-sizing: border-box;
+}
+
+.profile img {
+	margin: 0 auto;
+}
+
+.profile h5 {
+	font-size: 1rem;
 	padding: 0rem 0rem 0rem 0rem;
+	margin: 1rem 0rem .5rem 0rem;
+}
+
+.tags li {
+	font-size: .8rem;
+	color: white;
+	background-color: gray; 
+	padding: .4rem .7rem .4rem .7rem;
+	margin: 0rem 2.5rem 0rem -2.5rem;
+	border-radius: 10px;
+	display: inline;	
+	list-style-type: none;
+}
+
+.contact-btn {
+	background-color: yellow;
+	border: none;
+	width: 100%;
+	padding: .5rem 0rem .5rem 0rem;
 }
 
