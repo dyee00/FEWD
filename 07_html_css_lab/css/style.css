@@ -19,13 +19,12 @@ header {
 	border-color: yellow;
 }
 
-h1 a {
-	width: 40%;
+header .logo {
+	padding: 0rem;
 }
 
 header h1 a /* logo */{
-	font-family: georgia;
-	font-size: 2rem, serif;
+	font-family: georgia;	
 	color: yellow;
 	text-decoration: none;
 }
@@ -34,6 +33,10 @@ header nav ul li {
 	display: inline;
 	float: left;
 	list-style-type: none;
+}
+
+header .logo h1 a{
+	margin-right: 0rem;
 }
 
 /*** NAVIGATION ***/
