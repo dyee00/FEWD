@@ -1,0 +1,297 @@
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+button {
+  font-family: Impact;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia;
+}
+
+header {
+  color: white;
+  background-color: black;
+
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header h2 a {
+  color: yellow;
+  text-decoration: none;
+}
+
+header nav {
+ float: right;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.primary-navigation {
+  font-family: Impact;
+  text-transform: uppercase;
+}
+
+.primary-navigation, .secondary-navigation {
+  display: inline;
+  list-style: none;
+
+  padding-left: 0;
+}
+
+.primary-navigation li, .secondary-navigation li {
+  display: inline;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.motto {
+  background-color: lightgray;
+
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  font-family: Georgia;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.5rem;
+
+  text-align: center;
+}
+
+.strikethrough {
+  color: gray;
+  text-decoration: line-through;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.hero {
+  background-image: url('../images/coworking.jpg');
+
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.sign-up-call-to-action {
+  background-color: rgba(255, 255, 255, 0.75);
+  box-shadow: 0 0 5px black;
+
+  width: 40%;
+  float: right;
+
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.sign-up-call-to-action button {
+  width: 100%;
+  background-color: gold;
+}
+
+.hero:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.sign-up-call-to-action h1 {
+  font-family: Arial;
+}
+
+.info-boxes:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.info-box {
+  width: 33%;
+  float: left;
+
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  box-sizing: border-box;
+}
+
+footer {
+  color: white;
+  background-color: black;
+  padding: 1rem 0rem 1rem 2rem;
+}
+
+/* homework start here */
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  border-bottom: 5px solid yellow;
+}
+
+header h2 {
+  width: 100%;
+  margin: 0rem 0rem 0rem 3rem;
+}
+
+header h2 a {
+  font-size: 2.5rem;  
+}
+
+header nav {
+  font-size: 1.5rem;
+  margin: 0rem 3rem 0rem 0rem;
+}
+
+header nav ul li a {
+  font-size: 2rem;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1.5rem 0rem 1.5rem 0rem;
+}
+
+/* index page */
+
+.motto {
+  justify-content: center;
+  display: block;
+}
+
+.hero {
+  justify-content: flex-end;
+  padding: 2rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.sign-up-call-to-action {
+  width: 30%;
+  height: 80%;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+}
+
+.info-box {
+  border-right: 2px solid lightgray;
+  height: 200px;
+}
+
+.info-box button {
+  background-color: lightgray;
+  padding: .5rem 1rem .5rem 1rem;
+  margin: 1rem 0rem 1rem 0rem;
+  border-radius: 3px;
+}
+
+
+/* developer & designer page */
+
+
+.header2 {
+  display: flex;
+  width: 100%;
+  height: 0 auto;
+  flex-wrap: nowrap;
+  align-items: center;  
+  justify-content: space-between;
+}
+
+.header2 h2 {
+  width: 40%;
+}
+
+.header2 h2 a {
+  font-size: 2rem;  
+}
+
+.header2 nav {
+  font-size: 1.3rem;
+}
+
+.header2 nav a {
+  font-size: 1.3rem;
+}
+
+.primary-navigation  .developer-btn{
+  padding: 1.4rem 1rem 1.4rem 1rem;
+  background-color: gray;
+}
+
+.primary-navigation  .designer-btn{
+  padding: 1.4rem 1rem 1.4rem 1rem;
+  background-color: gray;
+}
+
+.developers {
+  width: 100%;
+  background: lightgray;
+  justify-content: center;
+}
+
+.developer {
+  justify-content: center;
+  padding: 1rem;
+  margin: .5rem 1rem .5rem 1rem;
+  background: white;
+  width: calc(100% * (1/4) - 100px - 1px)
+  height: 0 auto;
+}
+
+.developer a {
+  font-family: impact;
+  color: black;
+  text-decoration: none;
+  background: yellow; 
+  padding: .5rem 6rem .5rem 6rem;
+}
+
+.developers ul li {
+  list-style-type: none;
+  margin: 0rem 3rem 0rem -2.5rem;
+  padding: 0.2rem .5rem .2rem .5rem;
+  display: inline;
+  background: gray;
+  border-radius: 5px;
+  color: white;
+}
+
+/* responsive */
+
+@media screen and (max-width: 600px) {
+  .primary-navigation, .secondary-navigation {
+    display: block;
+  }
+
+  header nav {
+    float: none;
+  }
+
+  .sign-up-call-to-action {
+    width: 100%;
+  }
+
+  .info-box {
+    width: 100%;
+  }
+}
