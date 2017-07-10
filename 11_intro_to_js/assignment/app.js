@@ -1,3 +1,5 @@
+/* assignment */
+
 var price = prompt("What is the price of the product?");
 var items = prompt("How many items of the product are in the inventory?");
 var userCash = prompt("How much money do you have?");
@@ -10,3 +12,4 @@ if (userCash >= price && items > 0) {
 } else if (userCash >= price && items == 0) {
 	console.log("Not enough inventory");
 }
+
