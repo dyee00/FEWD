@@ -17,9 +17,7 @@ if (mathOp === "add") {
 	console.log(Math.pow(firstNum,secondNum));
 }	
 
-if (mathOp === "divide", firstNum===0 && secondNum===0) {
-	console.log("Please choose another set of numbers where both numbers are NOT zero!")
-}
+
 
 
 
