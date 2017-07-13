@@ -4,7 +4,7 @@ var bigOrSmall = function(number) {
 	var sum = 10; 
 	if (number > sum) {
 		console.log("This number is big");
-	} else if (number < sum) {
+	} else {
 		console.log("This number is small");
 	}
 };
