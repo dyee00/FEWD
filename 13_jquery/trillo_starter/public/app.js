@@ -47,14 +47,18 @@ var items = [
   "Write blog post about selfies"
 ];
 
+
 var renderAllItems = function(itemsToRender) {
 
-	$("#todo-column ul").append("<li>" + items[0] + "<span>Mark as done</span>" + "</li>");
-	$("#todo-column ul").append("<li>" + items[1] + "<span>Mark as done</span>" + "</li>");
-	$("#todo-column ul").append("<li>" + items[2] + "<span>Mark as done</span>" + "</li>");
-	$("#todo-column ul li span").addClass("label");
+	var itemsToRender = i;
+	for (var i = 0; i < items.length; i++ ) {
+		$("#todo-column ul").append("<li>" + items[i] + "<span>Mark as done</span>" + "</li>");
+		$("#todo-column ul li span").addClass("label");
+	};
 
 };
+
+
 
 // ----------------
 // BONUS
