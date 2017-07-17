@@ -17,8 +17,7 @@ var addNewItem = function(item) {
 
 	$("#todo-column ul").append("<li>" + "<p>" + item + "<span>" + "</span>" + "</p>" + "</li>");
 	$("#todo-column ul li").addClass("item todo");
-	$("#todo-column ul li span").html("Mark as done");
-	$("#todo-column ul li span").addClass("label");
+	$("#todo-column ul li span").addClass("label").html("Mark as done");
 
 };
 
@@ -28,8 +27,7 @@ var addNewItem = function(item) {
 var completeAll = function() {
 
 	$("#todo-column ul li").appendTo("#done-column ul");
-	$("#done-column ul li span").html("Remove");
-	$("#done-column ul li span").addClass("label");
+	$("#done-column ul li span").addClass("label").html("Remove");
 
 };
 
@@ -56,8 +54,7 @@ var renderAllItems = function(itemsToRender) {
 	for (var i = 0; i < items.length; i++ ) {
 		$("#todo-column ul").append("<li>" + "<p>" + items[i] + "<span>" + "</span>" + "</li>");
 		$("#todo-column ul li").addClass("item todo");
-		$("#todo-column ul li span").html("Mark as done");
-		$("#todo-column ul li span").addClass("label");
+		$("#todo-column ul li span").addClass("label").html("Mark as done");
 	};
 
 };
@@ -84,8 +81,8 @@ var removeItem = function(itemNumber) {
 var markAsDone = function(itemNumber) {
 
 	$("#todo-column ul").find("li").eq(itemNumber).appendTo("#done-column ul");
-	$("#done-column ul li span").html("Remove");
-	$("#done-column ul li span").addClass("label");
+	$("#done-column ul li span").addClass("label").html("Remove");
+
 };
 
 
