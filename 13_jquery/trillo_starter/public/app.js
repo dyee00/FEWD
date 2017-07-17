@@ -2,20 +2,22 @@
 
 // Should build the following HTML structure for a todo:
 // <li class="item todo">
-// 	<li>Wrap things in ca$h</li>
+// 	<p>Wrap things in ca$h</p>
 // 	<span class="label">Mark as Done</span>
 // </li>
 
 // Should build the following HTML structure for a done item:
 // <li class="item done">
-// 	<li>Learn JavaScript</li>
+// 	<p>Learn JavaScript</p>
 // 	<span class="label">Remove</span>
 // </li>
 
 
 var addNewItem = function(item) {
 
-	$("#todo-column ul").append("<li>" + item + "<span>Mark as done</span>" + "</li>");
+	$("#todo-column ul").append("<li>" + "<p>" + item + "<span>" + "</span>" + "</p>" + "</li>");
+	$("#todo-column ul li").addClass("item todo");
+	$("#todo-column ul li span").html("Mark as done");
 	$("#todo-column ul li span").addClass("label");
 
 };
@@ -52,12 +54,13 @@ var renderAllItems = function(itemsToRender) {
 
 	var itemsToRender = i;
 	for (var i = 0; i < items.length; i++ ) {
-		$("#todo-column ul").append("<li>" + items[i] + "<span>Mark as done</span>" + "</li>");
+		$("#todo-column ul").append("<li>" + "<p>" + items[i] + "<span>" + "</span>" + "</li>");
+		$("#todo-column ul li").addClass("item todo");
+		$("#todo-column ul li span").html("Mark as done");
 		$("#todo-column ul li span").addClass("label");
 	};
 
 };
-
 
 
 // ----------------
