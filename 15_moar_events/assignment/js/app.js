@@ -1,4 +1,4 @@
-console.log("This is working!");
+console.log("This is working!"); // test 
 
 
 var enterCity = function(city) {
@@ -41,7 +41,7 @@ if(city === "Austin") {
 	$("body").addClass("sydney");
 }else if (city === "SYD") {
 	$("body").removeClass();
-	$("body").addClass("sf");
+	$("body").addClass("sydney");
 }
 
 };
