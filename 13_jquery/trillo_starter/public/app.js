@@ -27,6 +27,8 @@ var addNewItem = function(item) {
 var completeAll = function() {
 
 	$("#todo-column ul li").appendTo("#done-column ul");
+	$("#todo-column ul li").removeClass("todo");
+	$("#todo-column ul li").addClass("done");
 	$("#done-column ul li span").addClass("label").html("Remove");
 
 };
