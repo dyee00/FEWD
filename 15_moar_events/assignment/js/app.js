@@ -61,6 +61,12 @@ $("#submit-btn").on("click", function(event) {
 
 }); 		
 
- 
+ /*
+
+ var cities = ["Austin", "ATX", "Los Angeles", "LA", "LAX", 
+			  "New York", "New York City", "NYC", "San Francisco",
+			  "SF", "Bay Area", "Sydney", "SYD"];
+
+*/
 
 
