@@ -37,31 +37,30 @@ var createTweed = function(text) {
 
 // I shouldn't be able to type more than 140 characters
 
-$(".new-tweed-text").keypress(function(event) {
+
+$(".new-tweed-text").on("input", function() {
   var userInput = $(".new-tweed-text").val();
 
-  if (userInput.length > 5) {
-    event.preventDefault();
-  } // needs firefox fix
+  	if (userInput.length > 140) { // if userInput is greater than # characters
+  	  var trimmedInput = userInput.substring(0, 140); // assures up to the # of character allowed
+  	  
+  	  $(".new-tweed-text").val(trimmedInput); // limits textbox to max characters stated
+
+  	}
 });
+
+
+
 
 
 // === menu ====
 
-$(".navigation-icon").click(function () {
-	$("nav").toggleClass("navigation-enabled");
 
-	if().addClass("background", "#444");
+$(".navigation-icon").click(function() {
+  var navigation = $(".navigation");
 
-	
-
+  navigation.toggleClass("navigation-enabled");
 });
-
-
-
-
-
-
 
 
 

@@ -25,13 +25,37 @@ header {
   padding: 0 12px;
 }
 
+.navigation {
+  position: relative;
+}
+
 .navigation-icon {
   width: 40px;
 }
 
 .navigation-items {
   display: none; 
+  color: white;
 }
+
+.navigation.navigation-enabled {
+  background-color: #777;
+}
+
+.navigation-enabled .navigation-items {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 48px;
+  background-color: #444;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation-enabled .navigation-items {
+  padding: 25px;
+}
+
 
 main {
   max-width: 960px;
